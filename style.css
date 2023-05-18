@@ -1,0 +1,207 @@
+@font-face {
+    font-family:D-DIN-Bold ;
+    src: url(fonts/d-din/D-DIN-Bold.otf);
+    
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+/* -----------page1------ */
+.container1{
+
+display: flex;
+flex-direction: column;
+background-image: url(img/image\ 1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+background-position: center;
+padding-top: 35px;
+padding-left: 45px;
+
+/*---  full nav bar ---*/
+}
+.header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 280px;
+}
+.logo img{
+
+width: 210px;
+
+}
+/* ---mid nav----- */
+.mid-nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'D-DIN-Bold', Arial, Verdana, sans-serif;
+  
+}
+/* ----nav end--- */
+.nav-end{
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 800;
+    align-items: center;
+
+}
+.nav-end-shop{
+    margin-right: 20px;
+}
+/* ----text in container1--- */
+.starlink {
+    color: #fff;
+    position: absolute;
+    bottom: 15%;
+    
+}
+.starlink h2{
+    font-size:48px ;
+    line-height: 58px;
+padding-bottom: 20px;
+font-family: 'D-DIN-Bold', Arial, Verdana, sans-serif;
+
+}
+.starlink h4{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'D-DIN-Bold', Arial, Verdana, sans-serif;
+
+}
+.starlink button{
+    background-color: transparent;
+    border-color: #fff;
+    border-width: 2px;
+    font-size: l5px;
+    padding: 20px 50px;
+    color: #fff;
+    text-transform: uppercase;  
+}
+.container2{
+ display: flex;
+flex-direction: column;
+background-image: url(img/Haven1_Hero_5_2600x1400_a23f540f5f.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+background-position: center;
+padding-left: 45px;
+position: relative;
+}
+.spacex{
+    color: #fff;
+    position: absolute;
+    bottom: 15%;
+    font-size: 33px;
+    
+}
+.spacex button{
+    background-color: transparent;
+    border-color: #fff;
+    border-width: 2px;
+    font-size: l5px;
+    padding: 20px 50px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.spacex h2{
+    font-family: 'D-DIN-Bold', Arial, Verdana, sans-serif;
+     padding-bottom: 15px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    padding-left: 45px;
+    position: relative;
+}
+.starship{
+    color: #fff;
+    position: absolute;
+    bottom: 15%;
+    font-size: 33px;
+
+}
+.starship button{
+    background-color: transparent;
+    border-color: #fff;
+    border-width: 2px;
+    font-size: l5px;
+    padding: 20px 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.starship h2{
+    font-family: 'D-DIN-Bold', Arial, Verdana, sans-serif;
+    padding-bottom: 15px;
+}
+.starship h5{
+    font-family: 'D-DIN-Bold', Arial, Verdana, sans-serif;
+}
+footer{
+    
+    display: flex;
+    justify-content: space-around  ;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-family: 'D-DIN-Bold', Arial, Verdana, sans-serif;
+    line-height: 38px;
+
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.social p{
+    padding-right: 45px;
+    
+}
+button{
+    font-weight: bold;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+button:hover{
+    color: #000;
+    background-color: #fff;
+    transition-property:  background-color;
+    transition-duration: .5s;
+} 
+.mid-nav a:hover{
+border-bottom: 2px solid #fff;
+}
+.social p:hover{
+    color: #777;
+}
+
+
+
+
